@@ -7,14 +7,14 @@ import Search from "./components/pages/Search";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div>
         <NavTabs />
         <Route exact path="/about" component={About} />
         <Route exact path="/discover" component={Discover} />
         <Route path="/search" component={Search} />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
