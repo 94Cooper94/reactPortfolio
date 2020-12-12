@@ -4,11 +4,11 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-function Home() {
+function About() {
   return (
     <div>
       <Hero backgroundImage="">
-        <h1>Home</h1>
+        <h1>About</h1>
         <h2></h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
@@ -35,4 +35,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;
