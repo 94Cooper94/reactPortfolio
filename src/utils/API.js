@@ -1,22 +1,18 @@
 // saving for easter egg feature of conjuring up a dog image somewhere, possibly
 
 
-
 // import axios from "axios";
-// const random_URL = "https://dog.ceo/api/breeds/image/random";
+
+// // Export an object containing methods we'll use for accessing the Dog.Ceo API
 
 // export default {
-//   search: function() {
-//     return axios.get(random_URL);
-//   }
-// };
-
-
-// import axios from "axios";
-// const search_URL = `https://dog.ceo/api/breed/${query}/images/random`;
-
-// export default {
-//   search: function(query) {
-//     return axios.get(search_URL);
+//   getRandomDog: function() {
+//     return axios.get("https://dog.ceo/api/breeds/image/random");
+//   },
+//   getDogsOfBreed: function(breed) {
+//     return axios.get("https://dog.ceo/api/breed/" + breed + "/images");
+//   },
+//   getBaseBreedsList: function() {
+//     return axios.get("https://dog.ceo/api/breeds/list");
 //   }
 // };

@@ -1,18 +1,21 @@
 import React from "react";
 import { HashRouter, Route } from "react-router-dom";
-import NavTabs from "./components/NavTabs";
-import About from "./components/pages/About";
-import Discover from "./components/pages/Discover";
-import Search from "./components/pages/Search";
+import Home from "./pages/Home";
+import Demos from "./pages/Demos";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <HashRouter basename="/about">
+    <HashRouter basename="/" component={Home} >
       <div>
-        <NavTabs />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/discover" component={Discover} />
-        <Route path="/search" component={Search} />
+        <Navbar />
+        <Wrapper>
+          <Route exact path="/Home" component={Home} />
+          <Route path="/Demos" component={Demos} />
+        </Wrapper>
+        <Footer />
       </div>
     </HashRouter >
   );
