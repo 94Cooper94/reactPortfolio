@@ -7,7 +7,7 @@ import Search from "./components/pages/Search";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/about">
       <div>
         <NavTabs />
         <Route exact path="/about" component={About} />

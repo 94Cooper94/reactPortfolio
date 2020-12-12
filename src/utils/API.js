@@ -1,11 +1,15 @@
-import axios from "axios";
-const random_URL = "https://dog.ceo/api/breeds/image/random";
+// saving for easter egg feature of conjuring up a dog image somewhere, possibly
 
-export default {
-  search: function() {
-    return axios.get(random_URL);
-  }
-};
+
+
+// import axios from "axios";
+// const random_URL = "https://dog.ceo/api/breeds/image/random";
+
+// export default {
+//   search: function() {
+//     return axios.get(random_URL);
+//   }
+// };
 
 
 // import axios from "axios";
