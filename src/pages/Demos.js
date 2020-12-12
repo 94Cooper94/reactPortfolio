@@ -7,23 +7,25 @@ import Col from "../components/Col";
 function Demos() {
   return (
     <div>
-      <Hero backgroundImage="">
+      <Hero backgroundImage="../images/plannerEx.PNG">
         <h1>Demos</h1>
-        <h2></h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1></h1>
+            <h1>Demos</h1>
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
             <p>
+              D
             </p>
             <p>
+              E
             </p>
             <p>
+              F
             </p>
           </Col>
         </Row>
