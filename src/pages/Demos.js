@@ -4,6 +4,8 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
+
+
 function Demos() {
   return (
     <div>
@@ -18,15 +20,9 @@ function Demos() {
         </Row>
         <Row>
           <Col size="md-12">
-            <p>
-              D
-            </p>
-            <p>
-              E
-            </p>
-            <p>
-              F
-            </p>
+
+
+
           </Col>
         </Row>
       </Container>

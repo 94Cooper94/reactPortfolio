@@ -3,11 +3,12 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import coopHeadshot from "../components/images/coopHeadshot.jpeg"
 
 function About() {
   return (
     <div>
-      <Hero backgroundImage="../components/images/coopHeadshot.jpeg">
+      <Hero style={{ backgroundImage: `url(${coopHeadshot})` }}>
         <h1>About</h1>
       </Hero>
       <Container style={{ marginTop: 30 }}>
